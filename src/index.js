@@ -15,15 +15,15 @@ import CalcApp from './Calculator Redux/CalcApp';
 // import store from './Weather Redux/storeWeather';
 
 
-// import TodoApp from './REDUX TODO/App';
-// import { Provider } from "react-redux";
-// import store from "./REDUX TODO/store";
+import TodoApp from './REDUX TODO/App';
+import { Provider } from "react-redux";
+import store from "./REDUX TODO/store";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
-    <CalcApp />
+    {/* <CalcApp /> */}
  
    {/* <Provider store={store}>
      <React.StrictMode>
@@ -35,13 +35,13 @@ root.render(
      </React.StrictMode>
       </Provider> */}
    <div>
-    {/* <React.StrictMode>
+    <React.StrictMode>
     <Provider store={store}>
     
     <TodoApp />
     
     </Provider>
-    </React.StrictMode> */}    
+    </React.StrictMode>    
    </div>
   </div>
 
