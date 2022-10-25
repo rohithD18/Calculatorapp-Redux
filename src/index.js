@@ -10,14 +10,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import CalcApp from './Calculator Redux/CalcApp';
 
 
-import ComponentWeather from './Weather Redux/componentweather';
-import { Provider } from "react-redux";
-import store from './Weather Redux/storeWeather';
-
-
-// import TodoApp from './REDUX TODO/App';
+// import ComponentWeather from './Weather Redux/componentweather';
 // import { Provider } from "react-redux";
-// import store from "./REDUX TODO/store";
+// import store from './Weather Redux/storeWeather';
+
+
+import TodoApp from './REDUX TODO/App';
+import { Provider } from "react-redux";
+import store from "./REDUX TODO/store";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -25,23 +25,20 @@ root.render(
   <div>
     {/* <CalcApp /> */}
  
-   <Provider store={store}>
-     <React.StrictMode>
-      
-       {/* <TodoApp />
-       
-       <App /> */}
+   {/* <Provider store={store}>
+     <React.StrictMode>       
+       <App />.
        <ComponentWeather />
      </React.StrictMode>
-      </Provider>
+      </Provider> */}
    <div>
-    {/* <React.StrictMode>
+    <React.StrictMode>
     <Provider store={store}>
     
     <TodoApp />
     
     </Provider>
-    </React.StrictMode>     */}
+    </React.StrictMode>    
    </div>
   </div>
 
